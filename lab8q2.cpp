@@ -110,10 +110,10 @@ int main(){
 	int t=hx(arr,n);
 	float u=kx(arr,n);
 	int B=frqx(arr,n); 
-	//cout<< "The mean of the elements of the array is "<< r <<endl;
-	//cout<< "The value of the maximum element among your entries is "<< s <<endl;
-	//cout<< "The value of the minimum element among your entries is "<< t <<endl;
-	//cout<< "The value of the median element among your entries is "<< u <<endl;
+	cout<< "The mean of the elements of the array is "<< r <<endl;
+	cout<< "The value of the maximum element among your entries is "<< s <<endl;
+	cout<< "The value of the minimum element among your entries is "<< t <<endl;
+	cout<< "The value of the median element among your entries is "<< u <<endl;
 	cout<< "The element with the highest frequency is "<< B <<endl;
 	return 0;
 }
